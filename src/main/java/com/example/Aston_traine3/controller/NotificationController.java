@@ -16,10 +16,6 @@ public class NotificationController {
 
     private final EmailService emailService;
 
-    public NotificationController(EmailService emailService) {
-        this.emailService = emailService;
-    }
-
     @PostMapping("/email")
     public ResponseEntity<Void> sendEmail(@RequestBody EmailRequestDTO request) {
         emailService.sendCustomEmail(request.getEmail(), request.getSubject(), request.getMessage());
