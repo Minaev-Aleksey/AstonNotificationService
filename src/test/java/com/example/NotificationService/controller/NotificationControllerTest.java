@@ -1,7 +1,7 @@
-package com.example.Aston_traine3.controller;
+package com.example.NotificationService.controller;
 
-import com.example.Aston_traine3.AstonTraine3Application;
-import com.example.Aston_traine3.dto.EmailRequestDTO;
+import com.example.NotificationService.NotificationServiceApplication;
+import com.example.NotificationService.dto.EmailRequestDTO;
 import com.icegreen.greenmail.configuration.GreenMailConfiguration;
 import com.icegreen.greenmail.junit5.GreenMailExtension;
 import com.icegreen.greenmail.util.ServerSetup;
@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest(
-        classes = AstonTraine3Application.class,
+        classes = NotificationServiceApplication.class,
         webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT
 )
 public class NotificationControllerTest {

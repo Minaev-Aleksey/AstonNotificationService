@@ -1,7 +1,7 @@
-package com.example.Aston_traine3.service;
+package com.example.NotificationService.service;
 
-import com.example.Aston_traine3.AstonTraine3Application;
-import com.example.Aston_traine3.dto.UserEventDTO;
+import com.example.NotificationService.NotificationServiceApplication;
+import com.example.NotificationService.dto.UserEventDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.awaitility.Awaitility.await;
 
-@SpringBootTest(classes = AstonTraine3Application.class)
+@SpringBootTest(classes = NotificationServiceApplication.class)
 @EmbeddedKafka(partitions = 1, brokerProperties = { "listeners=PLAINTEXT://localhost:9092", "port=9092" })
 @ActiveProfiles("test")
 public class KafkaConsumerTest {

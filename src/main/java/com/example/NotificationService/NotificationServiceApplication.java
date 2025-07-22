@@ -1,13 +1,13 @@
-package com.example.Aston_traine3;
+package com.example.NotificationService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AstonTraine3Application {
+public class NotificationServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AstonTraine3Application.class, args);
+        SpringApplication.run(NotificationServiceApplication.class, args);
 
     }
 }

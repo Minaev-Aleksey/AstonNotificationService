@@ -1,6 +1,6 @@
-package com.example.Aston_traine3.service;
+package com.example.NotificationService.service;
 
-import com.example.Aston_traine3.dto.UserEventDTO;
+import com.example.NotificationService.dto.UserEventDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.LoggerFactory;

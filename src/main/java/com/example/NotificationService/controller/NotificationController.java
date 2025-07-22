@@ -1,7 +1,7 @@
-package com.example.Aston_traine3.controller;
+package com.example.NotificationService.controller;
 
-import com.example.Aston_traine3.dto.EmailRequestDTO;
-import com.example.Aston_traine3.service.EmailService;
+import com.example.NotificationService.dto.EmailRequestDTO;
+import com.example.NotificationService.service.EmailService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
