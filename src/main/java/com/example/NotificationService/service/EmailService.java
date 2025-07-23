@@ -20,15 +20,15 @@ public class EmailService {
     }
 
     public void sendAccountCreatedEmail(String toEmail) {
-        String subject = "Добро пожаловать на " + siteName;
-        String text = "Здравствуйте! Ваш аккаунт на сайте " + siteName + " был успешно создан.";
+        String subject = "Welcome to " + siteName;
+        String text = "Hello! Your account on the website " + siteName + " was created successfully.";
 
         sendEmail(toEmail, subject, text);
     }
 
     public void sendAccountDeletedEmail(String toEmail) {
-        String subject = "Ваш аккаунт на " + siteName + " удален";
-        String text = "Здравствуйте! Ваш аккаунт был удалён.";
+        String subject = "Your account on the " + siteName + " id deleted";
+        String text = "Hello! Your account has been deleted.";
 
         sendEmail(toEmail, subject, text);
     }

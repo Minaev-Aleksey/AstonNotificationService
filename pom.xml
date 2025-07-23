@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>NotificationService</artifactId>
+    <artifactId>notificationservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Notification Service</name>
     <description>Aston project for Spring Boot with Kafka</description>
